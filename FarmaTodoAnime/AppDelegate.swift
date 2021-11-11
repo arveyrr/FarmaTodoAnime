@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  FarmaTodoAnime
 //
-//  Created by ControlBox Mac2 on 11/10/21.
+//  Created by Arvey Rodríguez on 11/10/21.
 //
 
 import UIKit

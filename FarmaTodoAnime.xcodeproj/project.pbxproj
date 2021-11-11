@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D157DEB273DAE0C0010AA6E /* DataPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D157DEA273DAE0C0010AA6E /* DataPersistence.swift */; };
 		7DA1762E273B936900A6EAB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1762D273B936900A6EAB4 /* AppDelegate.swift */; };
 		7DA17630273B936900A6EAB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1762F273B936900A6EAB4 /* SceneDelegate.swift */; };
-		7DA17632273B936900A6EAB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA17631273B936900A6EAB4 /* ContentView.swift */; };
+		7DA17632273B936900A6EAB4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA17631273B936900A6EAB4 /* HomeView.swift */; };
 		7DA17634273B936D00A6EAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA17633273B936D00A6EAB4 /* Assets.xcassets */; };
 		7DA17637273B936D00A6EAB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA17636273B936D00A6EAB4 /* Preview Assets.xcassets */; };
 		7DA1763A273B936D00A6EAB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA17638273B936D00A6EAB4 /* LaunchScreen.storyboard */; };
+		7DA17647273B93D200A6EAB4 /* AnimeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA17646273B93D200A6EAB4 /* AnimeAPI.swift */; };
+		7DA1764B273B940900A6EAB4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1764A273B940900A6EAB4 /* SearchBar.swift */; };
+		7DA17654273B954700A6EAB4 /* TopAnimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA17653273B954700A6EAB4 /* TopAnimeView.swift */; };
+		7DA17657273B967C00A6EAB4 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA17656273B967C00A6EAB4 /* Anime.swift */; };
+		7DA17668273C63D900A6EAB4 /* AnimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA17667273C63D900A6EAB4 /* AnimeDetailView.swift */; };
+		7DA1766B273C90A900A6EAB4 /* LaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1766A273C90A900A6EAB4 /* LaterView.swift */; };
+		7DE9C553273CB65300F2970E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9C552273CB65300F2970E /* Extensions.swift */; };
+		7DE9C556273D619D00F2970E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9C555273D619D00F2970E /* Utils.swift */; };
+		7DE9C561273D7C5100F2970E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9C560273D7C5100F2970E /* SearchView.swift */; };
+		7DE9C565273D98C600F2970E /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9C564273D98C600F2970E /* RowView.swift */; };
+		7E86D8F1E4872BE263DC2F42 /* Pods_FarmaTodoAnime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 137F16151A4F9B4FBA18242D /* Pods_FarmaTodoAnime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		137F16151A4F9B4FBA18242D /* Pods_FarmaTodoAnime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FarmaTodoAnime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D157DEA273DAE0C0010AA6E /* DataPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistence.swift; sourceTree = "<group>"; };
 		7DA1762A273B936900A6EAB4 /* FarmaTodoAnime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmaTodoAnime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA1762D273B936900A6EAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DA1762F273B936900A6EAB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7DA17631273B936900A6EAB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DA17631273B936900A6EAB4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7DA17633273B936D00A6EAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DA17636273B936D00A6EAB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DA17639273B936D00A6EAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DA1763B273B936D00A6EAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DA17646273B93D200A6EAB4 /* AnimeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeAPI.swift; sourceTree = "<group>"; };
+		7DA1764A273B940900A6EAB4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		7DA17653273B954700A6EAB4 /* TopAnimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAnimeView.swift; sourceTree = "<group>"; };
+		7DA17656273B967C00A6EAB4 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		7DA17667273C63D900A6EAB4 /* AnimeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailView.swift; sourceTree = "<group>"; };
+		7DA1766A273C90A900A6EAB4 /* LaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaterView.swift; sourceTree = "<group>"; };
+		7DE9C552273CB65300F2970E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7DE9C555273D619D00F2970E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		7DE9C560273D7C5100F2970E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		7DE9C564273D98C600F2970E /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		985BC835E42DB4B8144B3E8F /* Pods-FarmaTodoAnime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmaTodoAnime.debug.xcconfig"; path = "Target Support Files/Pods-FarmaTodoAnime/Pods-FarmaTodoAnime.debug.xcconfig"; sourceTree = "<group>"; };
+		DDFA6A56263C98A93A22CA4E /* Pods-FarmaTodoAnime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmaTodoAnime.release.xcconfig"; path = "Target Support Files/Pods-FarmaTodoAnime/Pods-FarmaTodoAnime.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E86D8F1E4872BE263DC2F42 /* Pods_FarmaTodoAnime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6DA2DBAB9818DF41435680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				137F16151A4F9B4FBA18242D /* Pods_FarmaTodoAnime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DA17621273B936900A6EAB4 = {
 			isa = PBXGroup;
 			children = (
 				7DA1762C273B936900A6EAB4 /* FarmaTodoAnime */,
 				7DA1762B273B936900A6EAB4 /* Products */,
+				D486C8F2A20F107BC869542E /* Pods */,
+				0A6DA2DBAB9818DF41435680 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +93,11 @@
 		7DA1762C273B936900A6EAB4 /* FarmaTodoAnime */ = {
 			isa = PBXGroup;
 			children = (
+				7DA17644273B939700A6EAB4 /* Views */,
+				7DA17643273B938D00A6EAB4 /* Models */,
+				7DA17642273B937600A6EAB4 /* ModelViews */,
 				7DA1762D273B936900A6EAB4 /* AppDelegate.swift */,
 				7DA1762F273B936900A6EAB4 /* SceneDelegate.swift */,
-				7DA17631273B936900A6EAB4 /* ContentView.swift */,
 				7DA17633273B936D00A6EAB4 /* Assets.xcassets */,
 				7DA17638273B936D00A6EAB4 /* LaunchScreen.storyboard */,
 				7DA1763B273B936D00A6EAB4 /* Info.plist */,
@@ -75,6 +114,56 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7DA17642273B937600A6EAB4 /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				7DA17646273B93D200A6EAB4 /* AnimeAPI.swift */,
+				7D157DEA273DAE0C0010AA6E /* DataPersistence.swift */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		7DA17643273B938D00A6EAB4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7DA17656273B967C00A6EAB4 /* Anime.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7DA17644273B939700A6EAB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DA17631273B936900A6EAB4 /* HomeView.swift */,
+				7DA17653273B954700A6EAB4 /* TopAnimeView.swift */,
+				7DA1766A273C90A900A6EAB4 /* LaterView.swift */,
+				7DE9C560273D7C5100F2970E /* SearchView.swift */,
+				7DE9C564273D98C600F2970E /* RowView.swift */,
+				7DA17667273C63D900A6EAB4 /* AnimeDetailView.swift */,
+				7DA17649273B93ED00A6EAB4 /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DA17649273B93ED00A6EAB4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7DA1764A273B940900A6EAB4 /* SearchBar.swift */,
+				7DE9C552273CB65300F2970E /* Extensions.swift */,
+				7DE9C555273D619D00F2970E /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D486C8F2A20F107BC869542E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				985BC835E42DB4B8144B3E8F /* Pods-FarmaTodoAnime.debug.xcconfig */,
+				DDFA6A56263C98A93A22CA4E /* Pods-FarmaTodoAnime.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DA1763E273B936D00A6EAB4 /* Build configuration list for PBXNativeTarget "FarmaTodoAnime" */;
 			buildPhases = (
+				911525DEA79218E85F895539 /* [CP] Check Pods Manifest.lock */,
 				7DA17626273B936900A6EAB4 /* Sources */,
 				7DA17627273B936900A6EAB4 /* Frameworks */,
 				7DA17628273B936900A6EAB4 /* Resources */,
+				7A029ABFF65B25B634793505 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,14 +231,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A029ABFF65B25B634793505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmaTodoAnime/Pods-FarmaTodoAnime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmaTodoAnime/Pods-FarmaTodoAnime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmaTodoAnime/Pods-FarmaTodoAnime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		911525DEA79218E85F895539 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FarmaTodoAnime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DA17626273B936900A6EAB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA17647273B93D200A6EAB4 /* AnimeAPI.swift in Sources */,
+				7DE9C565273D98C600F2970E /* RowView.swift in Sources */,
 				7DA1762E273B936900A6EAB4 /* AppDelegate.swift in Sources */,
+				7D157DEB273DAE0C0010AA6E /* DataPersistence.swift in Sources */,
+				7DA17668273C63D900A6EAB4 /* AnimeDetailView.swift in Sources */,
+				7DA1764B273B940900A6EAB4 /* SearchBar.swift in Sources */,
+				7DE9C561273D7C5100F2970E /* SearchView.swift in Sources */,
+				7DA17657273B967C00A6EAB4 /* Anime.swift in Sources */,
+				7DA17654273B954700A6EAB4 /* TopAnimeView.swift in Sources */,
 				7DA17630273B936900A6EAB4 /* SceneDelegate.swift in Sources */,
-				7DA17632273B936900A6EAB4 /* ContentView.swift in Sources */,
+				7DA1766B273C90A900A6EAB4 /* LaterView.swift in Sources */,
+				7DE9C553273CB65300F2970E /* Extensions.swift in Sources */,
+				7DA17632273B936900A6EAB4 /* HomeView.swift in Sources */,
+				7DE9C556273D619D00F2970E /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +427,7 @@
 		};
 		7DA1763F273B936D00A6EAB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985BC835E42DB4B8144B3E8F /* Pods-FarmaTodoAnime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,6 +448,7 @@
 		};
 		7DA17640273B936D00A6EAB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFA6A56263C98A93A22CA4E /* Pods-FarmaTodoAnime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
